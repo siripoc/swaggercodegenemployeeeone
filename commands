@@ -1,0 +1,8 @@
+# Download current stable 2.x.x branch (Swagger and OpenAPI version 2)
+wget https://repo1.maven.org/maven2/io/swagger/swagger-codegen-cli/2.4.17/swagger-codegen-cli-2.4.17.jar -O swagger-codegen-cli.jar
+
+NAME
+        swagger-codegen-cli generate - Generate code with chosen lang
+
+java -jar swagger-codegen-cli.jar generate -i employeee.yaml -o employeeeone -l spring
+
